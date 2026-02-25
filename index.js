@@ -1,6 +1,6 @@
+console.log("ENV SMARTDOG_API_KEY:", process.env.SMARTDOG_API_KEY ? "OK" : "FEHLT");
 import express from "express";
 import axios from "axios";
-
 const app = express();
 app.use(express.json());
 
